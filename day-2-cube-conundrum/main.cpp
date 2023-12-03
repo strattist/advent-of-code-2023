@@ -85,12 +85,10 @@ std::vector<Game> parse_input(const std::filesystem::path& input) {
   if (f.is_open()) {
     std::string line;
     spdlog::debug("Successfully opened {}", input.string());
-    int sum_of_calibration_values = 0;
     while (std::getline(f, line)) {
       Game game = parse_line(line);
       if (game.rgb.size() > 0) games.push_back(game);
     }
-
   } else {
     spdlog::error("Failed to open {}", input.string());
   }
