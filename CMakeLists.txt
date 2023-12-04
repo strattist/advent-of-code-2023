@@ -5,6 +5,7 @@ project(aoc23 CXX)
 set(CMAKE_CXX_STANDARD 17 CACHE STRING "C++ Standard")
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSION ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 file(
   DOWNLOAD
@@ -18,3 +19,4 @@ add_subdirectory(${CMAKE_SOURCE_DIR}/shared)
 add_subdirectory(${CMAKE_SOURCE_DIR}/day-1-trebuchet)
 add_subdirectory(${CMAKE_SOURCE_DIR}/day-2-cube-conundrum)
 add_subdirectory(${CMAKE_SOURCE_DIR}/day-3-gear-ratios)
+add_subdirectory(${CMAKE_SOURCE_DIR}/day-4-scratchcards)

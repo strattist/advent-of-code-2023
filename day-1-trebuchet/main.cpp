@@ -1,9 +1,6 @@
 #include <spdlog/spdlog.h>
 
 #include <CLI/CLI.hpp>
-#include <algorithm>
-#include <cstdlib>
-#include <execution>
 #include <fstream>
 #include <map>
 #include <string>

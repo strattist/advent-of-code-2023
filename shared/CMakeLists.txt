@@ -21,6 +21,7 @@ target_include_directories(aoc_shared PUBLIC
 )
 target_sources(aoc_shared PRIVATE 
   ${CMAKE_CURRENT_SOURCE_DIR}/src/app.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/utils.cpp
 )
 target_link_libraries(aoc_shared PUBLIC
   CLI11::CLI11

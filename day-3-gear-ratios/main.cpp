@@ -4,9 +4,7 @@
 #include <cstdint>
 #include <numeric>
 #include <optional>
-#include <stdexcept>
 #include <string>
-#include <type_traits>
 
 #include "aoc/app.hpp"
 
